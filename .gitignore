@@ -1,0 +1,19 @@
+# never commit the raw Spotify export (it has IP address + full history)
+my_spotify_data/
+*.zip
+data/raw/*
+!data/raw/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local / OS
+.claude/settings.local.json
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
